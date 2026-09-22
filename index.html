@@ -6,12 +6,11 @@
 <title>坦克对战</title>
 <script>
 (function(){
-  var urls = [
-    'https://unpkg.com/@supabase/supabase-js@2',
-    'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.39.0/dist/umd/supabase.min.js',
-    'https://cdn.bootcdn.net/ajax/libs/supabase-js/2.39.0/supabase.min.js',
-    'https://cdn.staticfile.org/supabase-js/2.39.0/supabase.min.js'
-  ];
+var urls = [
+  './supabase.min.js',
+  'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.39.0/dist/umd/supabase.min.js',
+  'https://unpkg.com/@supabase/supabase-js@2'
+];
   window.__SUPABASE_LOADED__ = false;
   var i = 0;
   function tryLoad(){
